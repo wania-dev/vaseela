@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaseela-e-Rah | Flood Relief Campaign 2022 by Hadiqa Kiani</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/slideshow.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <!-- font-families  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    
+    <nav>
+
+        <div class="logo">
+            <img src="/media/pakistan-flag-std-transformed (1).png" alt="">
+            <header>Vaseela-e-Rah</header> 
+            <p href="#" id="style-2" data-replace="Now Accepting Donations In Pakistan Only"><span>Flood Relief Campaign 2022 by Hadiqa Kiani</span></p>
+        </div>
+
+        <div class="links">
+            <a href="#" class="hover-underline-animation" id="why">Why Help?</a>
+            <a href="#" class="hover-underline-animation" id="how">How To Help?</a>
+            <a href="#" class="hover-underline-animation" id="help">our efforts</a>
+            <a href="#" class="hover-underline-animation" id="mymessage">my message</a>
+            <button href="#" id="donate-btn" class="donatebutton">donate</button>
+            <span class="material-symbols-outlined menu" onclick="menuopen()" id="menu-icon">menu</span>
+            <span class="material-symbols-outlined menu" id="cross" onclick="closemenu()">close</span>
+        </div>
+
+    </nav>
+
+    <main>
+        <!-- manu content  -->
+        <div class="menu-links" id="menu-links">
+            <a href="#" class="hover-underline-animation" id="nodisplay-4">Why Help?</a>
+            <a href="#" class="hover-underline-animation" id="nodisplay-3">How To Help?</a>
+            <a href="#" class="hover-underline-animation" id="nodisplay-2">Our Efforts</a>
+            <a href="#" class="hover-underline-animation" id="nodisplay-1">My Message</a>
+            <a href="#" class="hover-underline-animation">Pick Up Facilities</a>
+            <a href="#" class="hover-underline-animation">Sign In/Sign Up</a>
+            <a href="#" class="hover-underline-animation">Email Newsletter</a>
+            <button href="#" id="donate-btn" class="nodisplay-5">donate</button>
+        </div>
+
+        <!-- slideshow -->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="https://reliefweb.int/sites/default/files/styles/large/public/images/reports/ca/44/ca44ca3a-5d5e-3ec2-b52f-81aef44b8cf0.jpg" style="width:100%">
+              <div class="text one"> جہلم سے وسیلہ رح تک <br>سیلاب زدگان بہیں بھایوں کے لئے امداد</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://blog-cdn.el.olx.com.pk/wp-content/uploads/2022/08/26163036/Floods-feature-opttt-1.jpg" style="width:100%">
+              <div class="text one double-line" style="color: white;">اب پاکستان میں عطیات قبول کرنے کا اعلان <br>متاثرین کی مدد کے لیے ہماری کوششوں میں شامل ہوں</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/media/hadeeqa kiani, philanthropy.PNG" style="width:100%">
+                <div class="text two"> "What Matters Most is that We Are Together" </div>
+              </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+
+            <script>
+              let slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 7000); // Change image every 7 seconds
+                }
+            </script>
+
+            <!-- hadiqa kiani message  -->
+            <div class="h-k-message">
+                <div class="img-container">
+                    <div class="hk-img"></div>
+                </div>
+                <div class="text-container">
+                    <h2>Why Hadiqa Kiani Does It?</h2>
+                    <h3 class="para">An Exclusive Interview from Hadiqa Kiani on Philanthropy, Flood Disaster, and Unity as Pakistanis in times of distress</h3>
+                </div>
+            </div>
+            
+            <!-- blog posts  -->
+            <h2 style="text-align: center; font-family: oswald;">Popular Posts</h2>
+           <div class="blog-posts">
+            <div class="sideposts left">
+                <!-- post #1 -->
+                <div class="post">
+                    <img src="/media/swat-valley-pakistan-floods-rescue-operation-96406209.jpg" alt="floods in swat valley">
+                    <h3>Our Efforts to releive flood victims from this disaster</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio illo error molestias dolorum? Tenetur quae soluta esse consequatur amet cumque ab modi commodi facilis.</p>                    
+                </div>
+
+                <!-- post #2 -->
+                <div class="post">
+                    <img src="/media/swat-valley-pakistan-floods-rescue-operation-96406209.jpg" alt="floods in swat valley">
+                    <h3>Join in Our Efforts to releive flood victims from this disaster</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio illo error molestias dolorum? Tenetur quae soluta esse consequatur amet cumque ab modi commodi facilis.</p>                    
+                </div>
+
+            </div>
+                <div class="sideposts">
+                    <!-- post #1 -->
+                    <div class="post">
+                        <img src="/media/swat-valley-pakistan-floods-rescue-operation-96406209.jpg" alt="floods in swat valley">
+                        <h3>Our Efforts to releive flood victims from this disaster</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio illo error molestias dolorum? Tenetur quae soluta esse consequatur amet cumque ab modi commodi facilis.</p>                    
+                    </div>
+
+                    <!-- post #2 -->
+                    <div class="post">
+                        <img src="/media/swat-valley-pakistan-floods-rescue-operation-96406209.jpg" alt="floods in swat valley">
+                        <h3>Join in Our Efforts to releive flood victims from this disaster</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio illo error molestias dolorum? Tenetur quae soluta esse consequatur amet cumque ab modi commodi facilis.</p>                    
+                    </div>
+
+                </div>
+           </div>
+
+
+    </main>
+
+    <footer>
+        <img src="/media/logo-img-transformed.png" alt="logo"> <br>
+        <button href="#" id="donate-btn" class="footerbtn">donate</button>
+        <div class="col">
+            <div class="co1">
+                <a href="#" class="hover-underline-animation">Why Help?</a>
+                <a href="#" class="hover-underline-animation">How To Help?</a>
+                <a href="#" class="hover-underline-animation">Our Efforts</a>
+                <a href="#" class="hover-underline-animation">My Message</a>
+            </div>
+
+            <form action="email-newsletter">
+                <label for="email">Sign Up for Daily Updates:</label><br>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <button type="submit" id="btn-form" >Join Us</button> <br>
+                <div class="social-media">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </form>
+
+            <div class="contact">
+                <a href="#" class="hover-underline-animation">GET IN TOUCH</a>
+                <a href="#" class="hover-underline-animation">Karachi Address</a>
+                <a href="#" class="hover-underline-animation">Lahore Address</a>
+                <a href="#" class="hover-underline-animation">info@vaseela.com</a>
+            </div>
+
+        </div> 
+    </footer>
+
+</body>
+</html>

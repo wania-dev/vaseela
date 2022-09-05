@@ -1,0 +1,88 @@
+footer{
+    /* height: 50vh; */
+    background-color: #e0e0e0;
+    margin: 20px 0 0 0; padding: 0;
+}
+footer img{
+    max-width: 300px;
+    height: auto;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.co1{width: 33%;}
+.co1 a{
+    display: block !important;
+    padding: 5px;
+    margin-left: 5vw;
+    text-decoration: none;
+    width: fit-content;
+}
+form{width: 33%;}
+form label{
+    color: #215238;
+    font-family: poppins;
+}
+form #email{
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #215238;
+    font-family: poppins;
+    width: 25%;
+}
+form #email:focus{
+    width: 70%;
+    transition: 0.8s;
+}
+form #btn-form{
+    border-radius: 15px;
+    padding: 3px;
+    font-family: poppins;
+    cursor: pointer;
+    font-size: 12px;
+    background: #215238;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+form #btn-form:hover{
+    background: white;
+    color: #215238;
+    transition: 0.5s;
+}
+/* .social-media{text-align: center;} */
+.fa {
+    text-decoration: none;
+    color: white;
+    font-size: 18px !important;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.fa:hover{opacity: 0.8;}
+
+.fa-facebook{background: rgb(0, 128, 255);}
+.fa-instagram{background: rgb(255, 0, 170);}
+.fa-twitter{background: rgb(0, 195, 255);}
+
+.contact{
+    width: 33%;
+}
+.contact a{
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+}
+.footerbtn{
+    margin-left: 20px;
+}
+@media (max-width: 430px){
+    .footerbtn{margin-left: auto; margin: auto; display: block;}
+    .col{flex-direction: column;}
+    .co1{width: 100%;} .co1 a{text-align: center; margin-left: auto;}
+    form {width: 100%; text-align: center; padding: 10px;}
+    .contact{width: 100%;}
+}
